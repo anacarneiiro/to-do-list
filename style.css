@@ -56,3 +56,21 @@ li{
     padding: 10px;
     border-bottom: 1px solid #ccc;
 }
+
+li.completed{
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.remove-bnt{
+    background: red;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.remove-bnt:hover{
+    background: red;
+}
